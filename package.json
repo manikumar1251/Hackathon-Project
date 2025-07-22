@@ -1,0 +1,27 @@
+{
+  "name": "hackathon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test tests/ikea-full-flow.spec.ts --project chromium --headed",
+    "erripuka" : "npx playwright test tests/giftcard.spec.ts --project chromium --headed",
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bala-vikash/IKEA-Automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bala-vikash/IKEA-Automation/issues"
+  },
+  "homepage": "https://github.com/bala-vikash/IKEA-Automation#readme",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.0.14",
+    "allure-playwright": "^3.3.2"
+  }
+}
